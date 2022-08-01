@@ -1,3 +1,5 @@
+const { default: swal } = require("sweetalert");
+
 function download(filename, textInput) {
 
     var element = document.createElement('a');
@@ -13,3 +15,5 @@ document.getElementById("btn")
           var filename = "libro.pdf";
           download(filename, text);
     }, false);
+
+
