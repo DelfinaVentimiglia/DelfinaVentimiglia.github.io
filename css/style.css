@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("libronegro.png.jfif");
+    background-position: cover;
+    background-size: cover;
+}
+
+.navbar{
+    font-size: 18px;
+    background-color: #222;
+    padding-bottom: 12px;
+}
+.hb-button{
+    position:absolute;
+    top:25px;
+    right: 30px;
+    color: rgb(54, 54, 54);
+    font-size: 25px;
+    padding: 5px 8px;
+    border-style: none;
+}
+.logo{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 45px;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    letter-spacing: 2px;
+}
+span{
+    color: #ff7648;
+
+}
+.nav-container{
+    text-align: center;
+    list-style: none;
+    display: none;
+}
+
+.nav-container li{
+    text-align:center ;
+    margin: 14px auto;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+    font-family:'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    padding: 5px 20px;
+}
+
+.nav-container li a:hover{
+    color:#ff7648;
+}
+.active{
+    display:block;
+}
+.text-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.text-container h1{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+
