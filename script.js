@@ -1,4 +1,4 @@
-let mainNav = document.getElementById("navbar");
+let mainNav = document.getElementById("nav");
 let navBarToggle = document.getElementById ("hb-btn");
 
 navBarToggle.addEventListener("click", function(){
@@ -13,4 +13,3 @@ buttonBarToggle.addEventListener("click", function(){
 
     mainButton.classList.toggle("active");
 })
-

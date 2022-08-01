@@ -18,7 +18,7 @@ body{
     position:absolute;
     top:25px;
     right: 30px;
-    color: #ff7648(54, 54, 54);
+    color: rgb(54, 54, 54);
     font-size: 25px;
     padding: 5px 8px;
     border-style: none;
@@ -74,10 +74,6 @@ a{
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 5px;
     font-size: 50px;
-}
-
-.btn primary full{
-    color: #ff7648;
 }
 
 @media screen and (min-width: 768px){
@@ -150,7 +146,6 @@ img{
 .button{
     font-family:'Open Sans' ;
     letter-spacing: 2.5px;
-    color: #ff7648;
 
 }
 .button :hover{
@@ -227,11 +222,11 @@ img{
   
   .form input, .form textarea {
     box-sizing: border-box;
-    color: #ff7648;
+   
     font-size: 1rem;
     padding: .8em;
     border-radius: .5em;
-    border: 1px solid #ff7648;
+    border: 1px solid #858C94;
   }
   .form textarea {
     margin-block-end: 2em;
@@ -261,13 +256,4 @@ img{
 }
 .textarea{
     width: 50%;
-}
-.btn{
-    font-family:'Open Sans' ;
-    letter-spacing: 2.5px;
-    color: #ff7648;
-}
-
-.btn :hover{
-    color:#ff7648;
 }
